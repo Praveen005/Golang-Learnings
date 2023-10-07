@@ -1,0 +1,9 @@
+go 1.21.2
+
+use (
+	./Arrays-n-Slices
+	./Loops
+	./If-else-switch
+	./functions
+	./packages
+)
