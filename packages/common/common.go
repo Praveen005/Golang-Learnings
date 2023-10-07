@@ -16,8 +16,8 @@ func init(){
 
 
 
-//we made out own package named "common" , for that made a folder named "common"
-//to use the methos/functions defined here, we need to export it from here
-//to export a function, we just capitalize the functiuon name. why? remember we were usig Print from fmt, where P is capital
+//we made our own package named "common" , for that made a folder named "common"
+//to use the methods/functions defined here, we need to export it from here
+//to export a function, we just capitalize the function name. why? remember, when we use Print from fmt,  'P' is capital in it
 //you can also export variables by capitalizing the variable names
 
