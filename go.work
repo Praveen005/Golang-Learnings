@@ -6,4 +6,8 @@ use (
 	./If-else-switch
 	./functions
 	./packages
+	./Map
+	./Structs
+	./Goroutines
+	./String
 )

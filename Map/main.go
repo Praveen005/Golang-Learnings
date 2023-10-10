@@ -46,10 +46,10 @@ func main(){
 }
 
 /*
-suppose instaed of storing "Praveen Kumar", you want to store like the following:
+suppose you want to store like the following:
 firstName: Praveen
 lastName: Kumar
-Email: praveen08h@mail.com
+Email: praveen08h@gmail.com
 
 */
 
@@ -61,7 +61,7 @@ Email: praveen08h@mail.com
 	A map element is not a variable, and we cannot take its address.
 
 	strconv converts strings to other datatypes :is short for string conversion
-		:https://pkg.go.dev/strconv#pkg-overview  : refer for more
+		: https://pkg.go.dev/strconv#pkg-overview  : refer for more
 		: strconv.Uint(integer-value , 10) : 10 here is base, coverts the decimal unsigned integer value to string
 
 */

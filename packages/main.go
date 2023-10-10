@@ -32,4 +32,4 @@ var packageVariable int = 53
 
 //package variables : var value = 32   //see it is defined out side the functions and see, all are small(koi zaruri nahi hai)
 
-//agar ye jo package variables ain, if the first letter is capital then it is global variable, like: var Value = 32
+//agar ye jo package variables hain, if the first letter is capital then it is global variable, like: var 'V'alue = 32, can be used across packages
