@@ -51,6 +51,14 @@ func main() {
 	// %T is the place holder for type of variable
 	fmt.Printf("The data type of %v is %T", data, data)
 
+
+	str := "Hi, Bunny"
+	runes1 := []rune(str) //stores the unicode values of the characters
+	fmt.Println(runes1)  //prints the decimal values of the unicodes
+
+	runes2 := []rune{72, 105, 44, 32, 66, 117, 110, 110, 121}
+	fmt.Println(string(runes2)) //type converts the rune to a string and prints, "Hi, Bunny"
+
 }
 
 

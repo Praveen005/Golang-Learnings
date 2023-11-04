@@ -26,3 +26,5 @@ func greet(name string)  (int, int, int) {
 }
 
 //In Golang you can return any number of values from a function, also define the datatypes of all the return values by enclosing them in parenthesis
+
+// In Go, public functions start with a capital letter and private ones start with a lowercase. We don't want the internals of our algorithm to be exposed to the world, so we made this function private.

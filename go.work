@@ -10,4 +10,13 @@ use (
 	./Structs
 	./Goroutines
 	./String
+	./Goroutines2
+	./Booking-Application
+	./conversion
+	./GoTour-Loops-n-Functions-Exercise
+	./TDD/Hello-World
+	./TDD/Integers
+	./TDD/Iterations
+	./Interfaces
+	./Web-server
 )

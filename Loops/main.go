@@ -3,7 +3,16 @@ package main
 import (
 	"fmt"
 	"strings"
+	"math"
 )
+
+//if statement can start with a short statement to execute before the condition.
+func pow(x, n, lim float64) float64 {
+	if v := math.Pow(x, n); v < lim {
+		return v
+	}
+	return lim
+}
 
 
 func main(){
@@ -47,8 +56,36 @@ func main(){
 		fmt.Println(value)
 	}
 
+	//The init and post statements are optional.
+	sum := 1
+	for ; sum < 1000; {
+		sum += sum
+	}
+	fmt.Println(sum)
+
+	//you can drop the semicolons
+	sum2 := 1
+	for sum2 < 1000 {
+		sum2 += sum2
+	}
+	fmt.Println(sum2)
+
+	fmt.Println(
+		pow(3, 2, 10),
+		pow(3, 3, 20),
+	)
+
 
 }
+/*
+	The basic for loop has three components separated by semicolons:
+
+		the init statement: executed before the first iteration
+		the condition expression: evaluated before every iteration
+		the post statement: executed at the end of every iteration
+
+
+*/
 
 /*
 Range iterates over elememnts for different data structures(not only arrays or slices)

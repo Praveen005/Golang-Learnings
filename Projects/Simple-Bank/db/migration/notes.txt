@@ -1,0 +1,8 @@
+There are two migration files, as you would have noticed with suffix .up and .down, why?
+    It is a best practice while writting Database migration.
+    The upscript is made to make the forward change to the schema
+    The down script is run to revert the chnage made by the up script
+
+    So, when we run "migrate up" command, the upscript files inside the db/migration folder will be run sequentially by the order of their prefix version
+
+    whereas, when we run the "migrate down" command the down script file inside the db/migration folder will be run sequentially by the reverse order of their prefix version
